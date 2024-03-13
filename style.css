@@ -1,0 +1,196 @@
+/* Reset some basic elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    color: white;
+    padding: 0 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+button,
+h2,
+h1,
+p {
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+}
+
+/* Header styles */
+.header {
+    /*make the image smaller (img/jumpo.png) */
+    background: url('img/jumbo.png') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    padding: 20px;
+
+    color: white;
+}
+
+/* Main content styles */
+.main {
+    text-align: center;
+}
+
+/* Hero section styles */
+.hero {
+    /* Placeholder color */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features,
+.call-to-action,
+.fandom {
+    width: 100%;
+    min-height: 400px;
+    color: black;
+}
+
+/* Footer styles */
+.footer {
+    background: #23272A;
+    /* Placeholder color */
+    color: white;
+    padding: 20px;
+}
+
+/* Helper classes */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Base button styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+/* Button 1 styles */
+.button1 {
+    background-color: #5865F2;
+    /* Discord blue */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #4752C4;
+    /* Darker Discord blue */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Button 2 styles */
+.button2 {
+    background-color: #3BA55D;
+    /* Discord green */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: #2F8F47;
+    /* Darker Discord green */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Button 3 styles */
+.button3 {
+    background-color: #7289DA;
+    /* Discord blurple */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button3:hover {
+    background-color: #5B6EAE;
+    /* Darker Discord blurple */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.background-wave {
+
+    width: 100%;
+    /* Stretch to full container width */
+    height: 30px;
+    /* Adjust the height to your preference */
+    opacity: 0.2;
+    /* Make it more transparent */
+    background-size: cover;
+    /* Cover the entire width, adjust the height proportionally */
+}
+
+.background-wave-flipped {
+    transform: scaleY(-1);
+    width: 100%;
+    /* Stretch to full container width */
+    height: 30px;
+    /* Adjust the height to your preference */
+    opacity: 0.2;
+    /* Make it more transparent */
+    background-size: cover;
+    /* Cover the entire width, adjust the height proportionally */
+}
+
+.easy-meet,
+.reliable-tech {
+    background-color: lightgray;
+}
+
+/* Add to your existing CSS */
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    padding-right: 20px;
+    /* Adjust spacing as needed */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* Center image in the available space */
+    align-items: center;
+    /* Align image vertically */
+}
+
+.feature-image,
+.easy-meet-image,
+.fandom-image,
+.reliable-tech-image {
+    max-width: 100%;
+    height: auto;
+}
